@@ -35,7 +35,7 @@ GO
 ------------------------------- Create Insert data into SPs for Testing -----------------------------------------------
 ---- The SP Name will be sent as message , which will just wait for 1 min and do a select. 
 ---- Logging of SP execution is done, to check whether SP Name sent to Service Broker for execution is executing it Parallelly or Sequentially.
----- Activation SP will execute the SP 
+---- Activation SP will execute following SP 
 
 -- SP 1- Define stored procedures 
 CREATE PROCEDURE [dbo].[usp_1]
