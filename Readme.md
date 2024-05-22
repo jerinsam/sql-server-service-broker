@@ -1,6 +1,5 @@
-
 **Problem Statement** 
-Overall time to complete a Stored Procedure is 30 mins. In order to reduce the execution time, Queries are optimized with Columnstore index along with NonClustered Indexes, which helped to reduce the execution time by 10 mins, now new execution time is 20 mins. While evaluating the queries further, It's been identified, if queries can be executed parallelly then it will help to execute the procedure in 5 mins but in SQL Server Stored Procedures, all the queries are executed sequentially.
+Overall time to complete a Stored Procedure is 30 mins. In order to reduce the execution time, Queries are optimized with Columnstore index along with NonClustered Indexes, which helped to reduce the execution time by 10 mins, now new execution time is 20 mins. While evaluating the queries further, It's been identified, if queries can be executed parallel then it will help to execute the procedure in 5 mins but in SQL Server Stored Procedures, all the queries are executed sequentially.
 
 
 **Solutions**
@@ -23,4 +22,4 @@ Steps :
 
 - /main/Docker Image Setup.bash - Can be used to get the script used to spin-up the SingleStoreDB docker container.
 - /main/SQL Queries.sql - SQL Server Tables and SingleStoreDB table creation script.
-- /main/push-data-sqlserver-singlestore.py - Python script to read table from SQL Server and push it to SingleStoreDB. SingleStoreDB uses same protocol used by MySQL, therefore data push to SingleStoreDB will be same as MySQL. 
+- /main/push-data-sqlserver-singlestore.py - Python script to read table from SQL Server and push it to SingleStoreDB. SingleStoreDB uses same protocol used by MySQL, therefore data push to SingleStoreDB will be same as MySQL.
