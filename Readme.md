@@ -16,5 +16,5 @@ In this POC, Data is pushed from SQL Server to SingleStore DB, Following Service
 
 - SingleStoreDB docker container - Use /install_and_config/ folder to understand the docker container license and setup.
 - SQL Server - Installed in Windows, Developer Edition is free to use.
-- Python
+- Python - - -
  
